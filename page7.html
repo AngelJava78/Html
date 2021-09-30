@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <form action="" method="POST">
+        <label for="name">Name: </label>
+        <input type="text" placeholder="Input your name" maxlength="30" id="name">
+        <br />
+        <label for="lastname">Last name: </label>
+        <input type="text" placeholder="Input your last name" maxlength="50" id="lastname">
+        <br/>
+        <label for="password">Password: </label>
+        <input type="password" placeholder="Input your password" id="password">
+        <br />
+        <label for="email">Email: </label>
+        <input type="email" placeholder="Input your email" maxlength="100" id="email">
+        <br />
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" placeholder="Input your birthdate" id="birthdate">
+        <br />
+        <label for="male">Gender</label>
+        <input type="radio" name="Male" title="Male" value="True" id="male"><label for="male">Male</label>
+        <input type="radio" name="Female" title="Female" value="False" id="female"><label for="female">Female</label>
+        <br/>
+        <label for="countyr">           Country        </label>
+        <select name="country" id="country">
+            <option value="México">México</option>
+            <option value="US">US</option>
+            <option value="Canada">Canada</option>
+        </select>
+        <br/>
+        <label for="terms">Terms and conditions</label>
+        <input type="checkbox" id="terms" value="True">
+        <br />
+        <input type="Color">Color
+        <input type="Range">Range
+        <br/>
+        <input type="button" name="Clear" title="Clear data" value="Clear data">
+        <input type="submit" name="Send" title="Send data">
+
+    </form>
+</body>
+
+</html>
